@@ -1,0 +1,13 @@
+/* Side Bar from Boot Strap */
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+.img_logo{
+  width: 250px;
+}

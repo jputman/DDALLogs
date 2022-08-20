@@ -18,8 +18,8 @@ class Auth extends ShieldAuth
      * ////////////////////////////////////////////////////////////////////
      */
     public array $views = [
-        'login'                       => '\CodeIgniter\Shield\Views\login',
-        'register'                    => '\CodeIgniter\Shield\Views\register',
+        'login'                       => '\App\Views\login\login',
+        'register'                    => '\App\Views\login\register',
         'forgotPassword'              => '\CodeIgniter\Shield\Views\forgot_password',
         'resetPassword'               => '\CodeIgniter\Shield\Views\reset_password',
         'layout'                      => '\CodeIgniter\Shield\Views\layout',
@@ -154,7 +154,7 @@ class Auth extends ShieldAuth
      * could be modified as the only method of login once an account
      * has been set up.
      */
-    public bool $allowMagicLinkLogins = true;
+    public bool $allowMagicLinkLogins = false;
 
     /**
      * --------------------------------------------------------------------
